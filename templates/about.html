@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}关于 · BotBlog{% endblock %}
+{% block content %}
+  <h1>关于 BotBlog</h1>
+  <p>BotBlog 是一个简单的 Python 博客网站，用 Flask 写成。</p>
+  <p>没有数据库，没有后台管理页面。文章写在 <code>posts.py</code> 里，用 Markdown 排版；部署只需要安装依赖、用 Gunicorn 跑起来。</p>
+  <p>代码开源在 GitHub，欢迎查看和使用。</p>
+{% endblock %}

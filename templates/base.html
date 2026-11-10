@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}BotBlog{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="{{ url_for('index') }}">BotBlog</a>
+      <nav>
+        <a href="{{ url_for('index') }}">首页</a>
+        <a href="{{ url_for('about') }}">关于</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>BotBlog · 用 Python + Flask 写成 · 开源在 GitHub</p>
+    </div>
+  </footer>
+</body>
+</html>

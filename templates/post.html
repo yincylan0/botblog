@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}{{ post.title }} · BotBlog{% endblock %}
+{% block content %}
+  <article class="post">
+    <h1>{{ post.title }}</h1>
+    <p class="meta">{{ post.date }}</p>
+    <div class="post-body">{{ content | safe }}</div>
+  </article>
+  <p><a href="{{ url_for('index') }}">← 返回首页</a></p>
+{% endblock %}
