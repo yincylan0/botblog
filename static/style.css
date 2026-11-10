@@ -2,16 +2,16 @@
 body {
   margin: 0;
   font-family: -apple-system, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
-  color: #1f2937;
-  background: #fafafa;
+  color: #e5e7eb;
+  background: #0f172a;
   line-height: 1.7;
 }
-a { color: #2563eb; text-decoration: none; }
+a { color: #60a5fa; text-decoration: none; }
 a:hover { text-decoration: underline; }
 .container { max-width: 720px; margin: 0 auto; padding: 0 20px; }
 .site-header {
-  background: #fff;
-  border-bottom: 1px solid #e5e7eb;
+  background: #1e293b;
+  border-bottom: 1px solid #334155;
 }
 .site-header .container {
   display: flex;
@@ -19,16 +19,16 @@ a:hover { text-decoration: underline; }
   justify-content: space-between;
   height: 56px;
 }
-.logo { font-size: 20px; font-weight: 700; color: #111827; }
+.logo { font-size: 20px; font-weight: 700; color: #f8fafc; }
 .logo:hover { text-decoration: none; }
-.site-header nav a { margin-left: 20px; color: #4b5563; }
+.site-header nav a { margin-left: 20px; color: #cbd5e1; }
 main.container { padding-top: 32px; padding-bottom: 48px; }
-h1 { font-size: 28px; margin: 0 0 16px; }
-h2 { font-size: 22px; margin: 0 0 4px; }
-.meta { color: #9ca3af; font-size: 14px; margin: 0 0 8px; }
+h1 { font-size: 28px; margin: 0 0 16px; color: #f8fafc; }
+h2 { font-size: 22px; margin: 0 0 4px; color: #f8fafc; }
+.meta { color: #64748b; font-size: 14px; margin: 0 0 8px; }
 .post-preview {
-  background: #fff;
-  border: 1px solid #e5e7eb;
+  background: #1e293b;
+  border: 1px solid #334155;
   border-radius: 8px;
   padding: 20px 24px;
   margin-bottom: 16px;
@@ -36,23 +36,24 @@ h2 { font-size: 22px; margin: 0 0 4px; }
 .post-preview p:last-child { margin-bottom: 0; }
 .post-body img { max-width: 100%; }
 .post-body pre {
-  background: #111827;
-  color: #f9fafb;
+  background: #020617;
+  color: #e2e8f0;
   padding: 14px 16px;
   border-radius: 6px;
   overflow-x: auto;
+  border: 1px solid #1e293b;
 }
-.post-body code { background: #f3f4f6; padding: 2px 5px; border-radius: 4px; }
+.post-body code { background: #334155; color: #e2e8f0; padding: 2px 5px; border-radius: 4px; }
 .post-body pre code { background: none; padding: 0; }
 .post-body blockquote {
-  border-left: 3px solid #d1d5db;
+  border-left: 3px solid #475569;
   margin: 16px 0;
   padding: 4px 16px;
-  color: #6b7280;
+  color: #94a3b8;
 }
 .site-footer {
-  border-top: 1px solid #e5e7eb;
-  color: #9ca3af;
+  border-top: 1px solid #334155;
+  color: #64748b;
   font-size: 14px;
   padding: 16px 0;
   text-align: center;
